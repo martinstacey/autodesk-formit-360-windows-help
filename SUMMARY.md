@@ -11,7 +11,6 @@
   * [Working with Data Formats](formit-capabilities/working-with-external-data.md)
   * [Collaboration](formit-capabilities/collaboration.md)
   * [Presentation Graphics](formit-capabilities/presentation-graphics.md)
-  * [FormIt + JavaScript for Plugins](https://formit3d.github.io/FormItExamplePlugins/)
   * [FormIt + Autodesk Docs for Cloud Storage](https://formit.autodesk.com/page/formit-autodesk-docs)
 * [FormIt Introduction](formit-introduction/README.md)
   * [Frequently Asked Questions](formit-introduction/faq.md)
