@@ -26,7 +26,7 @@ The Plugin Manager organizes plugins into categories to help you find the plugin
 
 ## Add Your Private or Local Plugin
 
-If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom of the panel and click (+):
+If you're [developing your own plugin](how-to-develop-plug-ins/), you can add its private URL into the field at the bottom of the panel and click (+):
 
 ![](../.gitbook/assets/d4.PNG)
 
@@ -42,7 +42,7 @@ The Plugin Manager uses registry keys on Windows to store your installed reposit
 
 ## Installing Plugins
 
-The [Plugin Manager](broken-reference) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 

@@ -1,6 +1,6 @@
-# Testing a Combined HTML Panel and Toolbar plugin
+# Testing a Combined HTML Panel and Toolbar Plugin
 
-You can test your in-progress plugins easily using the built-in [Script Editor](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpFormIt) in FormIt for Windows
+You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
 
 We recommend using `FormIt.LoadPlugin("URL"); `when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
 

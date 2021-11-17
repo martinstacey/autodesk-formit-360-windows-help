@@ -8,7 +8,7 @@ Plugins can be used to generate objects, make modifications to existing objects,
 
 ## Accessing Plugins
 
-Plugins are available in the [Plugin Manager](broken-reference) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
@@ -21,7 +21,7 @@ External plugins (plugins not hosted locally) require an internet connection to 
 
 ## Open Source
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](broken-reference) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
 
 If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plug-ins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
 

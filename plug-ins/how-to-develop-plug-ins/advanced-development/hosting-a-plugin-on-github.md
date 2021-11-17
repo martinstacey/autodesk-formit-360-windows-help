@@ -1,6 +1,6 @@
 # Hosting a Plugin on GitHub
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/index.html)!
+Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
 
 ### Host Your Plugin Project
 
@@ -18,7 +18,7 @@ At this point, you can continue adding, modifying, and testing plugins locally, 
 
 ### Publish Your Project
 
-For projects created in an IDE instead of [Plugin Playground](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#PluginPlayground), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+For projects created in an IDE instead of [Plugin Playground](../build-your-first-plugin/setting-the-plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
 
 This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
 

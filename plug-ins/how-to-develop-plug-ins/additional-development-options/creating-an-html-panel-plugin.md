@@ -17,7 +17,7 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#GeneralPluginSetup), a panel-based plugin includes these special JSON properties:
+In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
 
 * "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
 * The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.

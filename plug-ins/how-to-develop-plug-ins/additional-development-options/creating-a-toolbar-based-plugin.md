@@ -18,7 +18,7 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#GeneralPluginSetup), a toolbar-based plugin includes this special JSON property:
+In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
 
 * "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
 
