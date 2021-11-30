@@ -24,9 +24,9 @@ A manifest.json file has the following structure. It has additional properties d
 
 A typical plugin includes these JSON properties:
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
+* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../../plug-ins/how-to-use-plug-ins.md#plugin-manager)
+* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../../plug-ins/how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
+* "PluginDescription" is displayed in the [Plugin Manager](../../../plug-ins/how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
 * "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
 
 ![](<../../../.gitbook/assets/image (4).png>)

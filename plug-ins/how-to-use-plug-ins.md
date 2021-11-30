@@ -26,11 +26,11 @@ The Plugin Manager organizes plugins into categories to help you find the plugin
 
 ## Add Your Private or Local Plugin
 
-If you're [developing your own plugin](how-to-develop-plug-ins/), you can add its private URL into the field at the bottom of the panel and click (+):
+If you're [developing your own plugin](../plugins/how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plug-ins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](../plugins/how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
 ## Resetting the Plugin Manager
 

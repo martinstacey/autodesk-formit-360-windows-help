@@ -2,7 +2,7 @@
 
 You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
 
-We recommend using `FormIt.LoadPlugin("URL"); `when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
 
 Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
 
