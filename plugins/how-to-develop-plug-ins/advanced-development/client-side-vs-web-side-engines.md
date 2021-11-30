@@ -42,7 +42,7 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
 
 ### Method 1: FormItInterface.CallMethod
 
-`CallMethod `takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
+`CallMethod` takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
 
 ```
     var args = {
@@ -68,7 +68,7 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
 
 ➖ Requires plugin logic to be split into two different files.
 
-### **Method 2: FormIt.CallJS **
+### **Method 2: FormIt.CallJS**&#x20;
 
 **\*Available in FormIt 2022.1 and newer only**
 
@@ -85,15 +85,15 @@ var result = await FormIt.CallJS("CreateBlock", args);
 
 ```
 
-**Pros: **
+**Pros:**&#x20;
 
 ➕ The result is available when needed
 
-**Cons: **
+**Cons:**&#x20;
 
-➖** **Have to decorate all the async calls with await, forgetting to do so will mess things up.
+➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.
 
-➖** **Potentially slower due to `await`
+➖ **** Potentially slower due to `await`
 
 ### **Method 3 (async/await)**
 
@@ -105,21 +105,21 @@ With an async call, the Web Side calls the FormIt Side. This call starts in one 
 
 Only built-in FormIt APIs can be called by default.
 
-**Pros: **
+**Pros:**&#x20;
 
 ➕ The result is available when needed.&#x20;
 
 ➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
 
-**Cons: **
+**Cons:**&#x20;
 
-➖** **Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
+➖ **** Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
 
-➖** **Potentially slower due to` await.`
+➖ **** Potentially slower due to `await.`
 
 ### Method 4 (RegisterAsyncAPI)&#x20;
 
-**\*Available in FormIt 2023.0 and newer only **
+**\*Available in FormIt 2023.0 and newer only**&#x20;
 
 To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
 
@@ -142,16 +142,16 @@ var result = await HelloBlockAsync.CreateBlock(l, w, h);
 
 See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)  for an example.
 
-**Pros: **
+**Pros:**&#x20;
 
 ➕ The result is available when needed.&#x20;
 
 ➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
 
-**Cons: **
+**Cons:**&#x20;
 
-➖** **Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
+➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
 
-➖** **Potentially slower due to` await.`
+➖ **** Potentially slower due to `await.`
 
 ##

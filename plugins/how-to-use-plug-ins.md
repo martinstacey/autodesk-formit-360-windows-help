@@ -18,7 +18,7 @@ The Plugin Manager organizes plugins into categories to help you find the plugin
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins: **Plugins already installed by the user.&#x20;
+**Installed Plugins:** Plugins already installed by the user.&#x20;
 
 **Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team. More details to come on this in the future.
 

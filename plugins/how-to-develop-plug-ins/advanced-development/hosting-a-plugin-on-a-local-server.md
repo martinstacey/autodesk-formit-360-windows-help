@@ -4,7 +4,7 @@ Before you can preview a cloned plugin in FormIt, you need to host it on a local
 
 ### **View the Terminal in IDE**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window.** **Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
 
 View > Terminal (or shortcut Ctrl + \`)
 
@@ -39,7 +39,7 @@ Tip 1: In case of any issues with running the http-server (installed globally or
 Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
 
 * Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned `
+* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
 
 ### Develop for FormIt Web
 

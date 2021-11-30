@@ -4,7 +4,7 @@ Have you built a useful plugin that you want to share? Host your repository on G
 
 ### Host Your Plugin Project
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../build-your-first-plugin/publish-your-project.md) created in the Plugin Playground. &#x20;
+This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
 
 Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
 
@@ -18,7 +18,7 @@ At this point, you can continue adding, modifying, and testing plugins locally, 
 
 ### Publish Your Project
 
-For projects created in an IDE instead of [Plugin Playground](../build-your-first-plugin/setting-the-plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
 
 This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
 

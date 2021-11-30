@@ -4,7 +4,7 @@ In order to test and build plugins in the FormIt desktop app, you'll need FormIt
 
 ### **Display Script Editor and Script Output**
 
-In the top menu of FormIt, go to **Window **in the top** **menu and check the **Script Editor** and **Script Output **boxes.
+In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
@@ -26,9 +26,9 @@ The Script Editor stores written code inside a scratch.js file in the directory 
 
 At the top are two buttons:
 
-**Run **![](<../../../.gitbook/assets/image (4) (1).png>):** **Executes all code written in the window.
+**Run** ![](<../../../.gitbook/assets/image (4) (1).png>): **** Executes all code written in the window.
 
-**Run Selection **![](<../../../.gitbook/assets/image (15) (1) (1).png>):**  **Executes only the selected/highlighted lines of code.
+**Run Selection** ![](<../../../.gitbook/assets/image (15) (1) (1).png>):  ****  Executes only the selected/highlighted lines of code.
 
 ### **Script Output**
 
@@ -54,9 +54,9 @@ On Windows, the following registry keys are used to persist plugins:
 
 * Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin(); `to uninstall.
+Use `FormIt.UninstallPlugin();` to uninstall.
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load, _depending on whether you want the results of the exercise to be persistent or not.
+In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
 
 ### **Toolbar Plugin Sample: Flip Along**
 

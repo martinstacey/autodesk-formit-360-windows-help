@@ -1,6 +1,6 @@
 # Using an IDE
 
-Developing plugins with the [Plugin Playground](../build-your-first-plugin/setting-the-plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
 
 * You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
 * You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
