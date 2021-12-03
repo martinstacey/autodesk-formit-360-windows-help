@@ -26,3 +26,11 @@ You can change this in Windows 10 by doing the following:
 * Search "Display" in the Start Menu, and choose "Change Display Settings"&#x20;
 * Select the rectangle representing the monitor you'll be using with FormIt
 * Under "Scale and Layout" section, open the "Size of text, apps, and other items" dropdown and select a value of 125% or less
+
+## Troubleshooting
+
+If you're running FormIt on Windows 10 version 1909, you may see this error message:
+
+![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+
+This is due to a known issue with certain versions of Windows 10 Pro N. To avoid this error, download the Media Feature Pack for your version of Windows 10 here: [Media Feature Pack List for Windows N Editions](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
