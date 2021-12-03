@@ -29,8 +29,14 @@ You can change this in Windows 10 by doing the following:
 
 ## Troubleshooting
 
+### Windows 10 system error
+
 If you're running FormIt on Windows 10 version 1909, you may see this error message:
 
 ![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
 
 This is due to a known issue with certain versions of Windows 10 Pro N. To avoid this error, download the Media Feature Pack for your version of Windows 10 here: [Media Feature Pack List for Windows N Editions](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
+
+### Unable to sign in
+
+When attempting to sign in to your account in FormIt, the login dialog may hang, preventing you from proceeding. If this happens, you may need to unblock \*.autodesk.com in your network firewall. Contact your IT department for support.
