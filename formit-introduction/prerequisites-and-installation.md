@@ -17,6 +17,20 @@
 | **Disk Space**                 | 1 GB free disk space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Connectivity and Licensing** | <p>An internet connection is required when launching FormIt for the first time, in order to sign in to your Autodesk account. </p><p></p><p>An internet connection is also required to load plugins when launching FormIt. If an internet connection is not detected at startup, the application will launch without plugins.</p><p></p><p>An Autodesk account with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. <em></em> FormIt Pro is available as part of the <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk AEC Collection</strong></a>.</p>                                                                                                                                                                                                                                                                                                  |
 
+## Offline Access
+
+When you first run FormIt for Windows, you need to be connected to the internet so your license can be validated. After the first sign-in, you can use the app offline for 30 days. After this, you’ll need to go online to validate your license again.
+
+When using FormIt for Windows offline, some functionality will be limited:
+
+* The Set Location tool will not function, as it requires an internet connection to retrieve satellite and terrain data from Bing Maps.&#x20;
+  * However, any existing satellite and terrain already in the model from a previous online session will remain.&#x20;
+* Any plugins, including the Plugin Manager, will not load, as they get the latest code from GitHub on every application launch.&#x20;
+  * Workaround: If you load up all your plugins while online and keep the FormIt session running when going offline, the plugins that were previously loaded will remain and function normally.
+* Sample materials will not load, since they come from a cloud-hosted server.&#x20;
+  * Workaround: Navigate into the sample materials category folders while connected to the internet. The folders are downloaded and stored on your machine and can be accessed later when offline.&#x20;
+* You will not be able to save to or open from Autodesk Docs, including from within the Content Library.
+
 ## Recommended Windows DPI Settings
 
 FormIt for Windows works best when the display screen is set to 125% or less DPI scaling in Windows.
