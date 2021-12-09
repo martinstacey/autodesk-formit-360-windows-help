@@ -25,7 +25,7 @@ The beauty of using Dynamo to generate 3D Text is that editing it is easy, and k
 
 After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically switch to the Properties panel.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d text properties.png>)
 
 ### Text
 
@@ -85,7 +85,7 @@ Only applies when Invert Text is true. Specifies the amount of border around the
 
 Curves from fonts are converted to line segments using 3D Text, so this value controls how fine the curves are faceted.
 
-Lower numbers will result in more coarse faceting \(longer segments\) and higher numbers will result in finer faceting \(shorter segments\). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
+Lower numbers will result in more coarse faceting (longer segments) and higher numbers will result in finer faceting (shorter segments). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
 
 ### Run
 
@@ -114,4 +114,3 @@ Some fonts may create "self-intersecting curves", or other problematic geometry,
 If you get an error when trying to run 3D Text, or if letters disappear, it's worth clicking "Edit Embedded Graph" to see what's going wrong with the graph, and where the failure might be happening.
 
 Some fonts also have known issues that prevent them from being turned into proper geometry. Bahnschrift is one example of this. If you run into another font that's problematic, [let us know on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142). We'll do what we can to fix issues with specific fonts.
-
