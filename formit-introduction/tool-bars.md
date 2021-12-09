@@ -16,8 +16,8 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ![](<../.gitbook/assets/geometry\_icons (1).png>)
 
-1. \*\*\*\*[**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) _\*\*_and area selection filters
-2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) _\*\*_tools
+1. [**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) and area selection filters
+2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) tools
 3. [**Section Planes**](../tool-library/section-planes.md)
 4. [**3D Sketching Tools**](../formit-primer/part-i/3d-sketching.md)
 5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
@@ -44,7 +44,7 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ## Palette
 
-![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
+![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Layers**](../tool-library/layers.md)
 
@@ -62,7 +62,7 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ![](../.gitbook/assets/undo.png) [**Undo Manager**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
+![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
 
 ## Context Menu
 
