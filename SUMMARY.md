@@ -9,6 +9,7 @@
   * [FormIt + Revit for Documentation](https://formit.autodesk.com/page/formit-revit)
   * [Solar + Energy Analysis](formit-capabilities/analysis.md)
   * [Working with Data Formats](formit-capabilities/working-with-external-data.md)
+  * [Languages](formit-capabilities/languages.md)
   * [Collaboration](formit-capabilities/collaboration.md)
   * [Presentation Graphics](formit-capabilities/presentation-graphics.md)
   * [FormIt + Autodesk Docs for Cloud Storage](https://formit.autodesk.com/page/formit-autodesk-docs)
