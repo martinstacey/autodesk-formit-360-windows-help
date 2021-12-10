@@ -9,27 +9,27 @@ Setting your your project's location in the world it is important for the accura
 
 You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
 
-## Getting Started With Location
+### Getting Started With Location
 
 * Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window. 
+* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Select one of the auto-populating location options, or hit Enter to choose the first one
 * You'll zoom in to the location you searched for automatically
 
-## Set Location Only vs. Import Satellite Image and Terrain
+### Set Location Only vs. Import Satellite Image and Terrain
 
 Once you've searched for a location, you can choose one of two options:
 
 * **Set Location Only** will set the location in the file without importing satellite imagery.
 * **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
 
-## Importing Satellite Imagery
+### Importing Satellite Imagery
 
 * Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
 * A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
@@ -38,11 +38,11 @@ Once you've searched for a location, you can choose one of two options:
 
 * Drag the satellite imagery within the square to adjust its position
 * Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
+* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
-## Updating Satellite Imagery
+### Updating Satellite Imagery
 
 After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
 
@@ -50,25 +50,25 @@ After importing satellite imagery the first time, you can use the Set Location w
 * Click **Import Satellite Image and Terrain.**
 * You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
 * Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position \(and may no longer be centered at the origin\):
+* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position (and may no longer be centered at the origin):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-## Importing Terrain
+### Importing Terrain
 
 New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default \(in case you've started modeling, your model may be covered by the terrain\).
+When terrain is imported, it's placed on a layer, which is off by default (in case you've started modeling, your model may be covered by the terrain).
 
 When you're ready to view terrain, toggle the Terrain layer by checking the box:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
-## Working with Terrain
+### Working with Terrain
 
 Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
 
@@ -97,3 +97,12 @@ The result will be the terrain with your cutting solid removed, exposing void wh
 
 You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
 
+### Troubleshooting the Set Location Dialog
+
+Setting a location in FormIt requires an internet connection to download satellite and terrain data from Bing Maps.
+
+Additionally, because Set Location dialog is a FormIt plugin under the hood, it requires access to GitHub to function. If you're having issues with the Set Location dialog, check that you have access to [https://github.io](https://github.io):&#x20;
+
+* Go to your web browser.
+* Try navigating to [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
+* If you don't see some data show up, your network or firewall may be blocking access to GitHub.
